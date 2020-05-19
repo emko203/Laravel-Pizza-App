@@ -7,10 +7,10 @@
         <div class="title m-b-md">
             DomiYes Pizzas
         </div>
-
+        <p class="mssg">{{ session('mssg')}}</p>
         <div class="links">
             <a href="/pizzas/create">Order a Pizza</a>
-        </div>
+
         </div>
     </div>
 </div>
