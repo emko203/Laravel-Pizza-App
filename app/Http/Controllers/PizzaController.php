@@ -9,6 +9,10 @@ class PizzaController extends Controller
 {
     public function index(){
        $pizzas = Pizza::all();
+
+       return view('pizzas',[
+           'pizzas' => $pizzas,
+       ]);
     }
 
     public function show($id){
