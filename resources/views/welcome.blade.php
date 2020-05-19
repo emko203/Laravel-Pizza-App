@@ -9,7 +9,7 @@
         </div>
 
         <div class="links">
-            <a href="view/pizzas.blade.php">Pizza List</a>
+            <a href="/pizzas/create">Order a Pizza</a>
         </div>
         </div>
     </div>
