@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
+<div class = "flex-center position-ref full-height">
 
 <div class="wrapper pizza-index">
     <h1>Pizza Orders</h1>
@@ -11,7 +12,7 @@
     </div>
     @endforeach
 </div>
-
+</div>
 
 @endsection
 
