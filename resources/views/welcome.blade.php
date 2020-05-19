@@ -12,7 +12,7 @@
             <a href="/login">Login</a>
             <a href="/register">Register</a>
             <a href="/pizzas/create">Order a Pizza</a>
-
+            <a href="/pizzas">See All Orders</a>
         </div>
     </div>
 </div>

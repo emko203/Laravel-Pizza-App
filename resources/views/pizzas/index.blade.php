@@ -13,6 +13,6 @@
     @endforeach
 </div>
 </div>
-
+<a href="/" class="back"> Go Back</a>
 @endsection
 
