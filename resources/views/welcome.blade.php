@@ -9,6 +9,8 @@
         </div>
         <p class="mssg">{{ session('mssg')}}</p>
         <div class="links">
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
             <a href="/pizzas/create">Order a Pizza</a>
 
         </div>
