@@ -16,9 +16,9 @@
         </select>
         <label for="type">Choose base</label>
         <select name="base" id="base">
-            <option value="TM">Tomato sauce, Mozzarella</option>
-            <option value="TSM">Tomato sauce, Salami, Mozzarella</option>
-            <option value="TMM">Tomato sauce, Mushrooms, Mozzarella</option>
+            <option value="classic">Classic</option>
+            <option value="crispy thin">Crispy Thin</option>
+            <option value="italian">Italian</option>
         </select>
         <fieldset>
             <label>Extra toppings:</label>
