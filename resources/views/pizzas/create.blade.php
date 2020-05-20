@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
+<div class = "flex-center position-ref full-height">
 <div class="wrapper create-pizza">
     <h1>Create a New Pizza</h1>
     <form action="/pizzas" method="POST">
@@ -29,4 +30,6 @@
         <input type="submit" value="Order Pizza">
     </form>
 </div>
+</div>
+<a href="/" class="back"> Go Back</a>
 @endsection
