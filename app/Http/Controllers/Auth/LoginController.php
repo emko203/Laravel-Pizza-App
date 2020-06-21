@@ -6,7 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
-
+use App\User;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
 class LoginController extends Controller
 {
     /*
@@ -25,10 +27,11 @@ class LoginController extends Controller
     /**
      * Where to redirect users after login.
      *
-     * @var string
+     * 
      */
  protected function authenticated(Request $request, $user)
  {
+   
      if($user->hasRole('superadministrator')){
          return redirect('/admin');
      }
@@ -36,7 +39,7 @@ class LoginController extends Controller
 
      
      if($user->hasRole('user')){
-        return redirect('/user');
+        return $redirectTo = '/user';
     }
  }
 
